@@ -1,0 +1,28 @@
+#calculator {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;;
+  background-color: blue;
+}
+
+#screen {
+  background-color: grey;
+  color: black
+}
+
+#buttons {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+
+}
+
+#operation {
+  height: 30px;
+}
+
+#queue {
+  height: 30px;
+}
