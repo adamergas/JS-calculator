@@ -1,28 +1,46 @@
+p {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+}
 #calculator {
-  width: 400px;
+  width: 300px;
   margin: 0 auto;
-  padding: 20px;;
-  background-color: blue;
+  padding: 20px;
+  border: 1px solid #898;
+  box-shadow: inset 2px 2px 4px #ddd, 2px 2px 2px #222;
+  border-radius: 5%;
+  background-color: #336;
 }
 
 #screen {
-  background-color: grey;
-  color: black
+  height: 60px;
+  background-color: #898;
+  color: black;
+  text-align: right;
+  margin-bottom: 10px;
 }
 
 #buttons {
+  display: flex;
+  flex-flow: row wrap;
   padding: 0;
   margin: 0;
 }
 
+#AC, #zero {
+  width: 48%;
+}
+
 button {
-
+  width: 23%;
+  margin: 1%;
+  font-family: 'Iceland', sans-serif;
 }
 
-#operation {
-  height: 30px;
-}
-
-#queue {
-  height: 30px;
+#operation, #queue {
+  height: 50%;
+  font-family: 'Iceland', sans-serif;
+  font-size: 32px;
+  overflow: hidden;
 }
